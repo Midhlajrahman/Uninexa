@@ -22,3 +22,8 @@
     --bs-btn-disabled-bg: #0017c5 !important;
     --bs-btn-disabled-border-color: #0017c5 !important;
 }
+@media (max-width: 992px) {
+    .sm-title h2{
+        font-size: 28px !important;
+    }
+}

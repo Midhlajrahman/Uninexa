@@ -516,18 +516,17 @@
      </script>
 
 <!-- Swiper JS -->
-<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
 <!-- Initialize Swiper -->
 <script>
-    var swiper = new Swiper('.swiper', {
-        slidesPerView: 'auto',
-        centeredSlides: true,
-        spaceBetween: 20,
-        
+    document.addEventListener('DOMContentLoaded', function() {
+        var swiper = new Swiper('.swiper-div', {
+            slidesPerView: 'auto',
+            centeredSlides: true,
+            spaceBetween: 20,
+        });
     });
 </script>
-
 <script>
     document.addEventListener('DOMContentLoaded', function () {
         const swiper = new Swiper('.swiper-container', {
